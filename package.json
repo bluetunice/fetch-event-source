@@ -1,0 +1,29 @@
+{
+  "name": "@buletu/fetch-event-source",
+  "version": "1.0.3",
+  "description": "A JavaScript library using EventSource and fetch to quickly construct AI assistant applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buletunice/fetch-event-source.git"
+  },
+  "keywords": [
+    "fetch",
+    "javascript",
+    "EventSource",
+    "FetchEventSource"
+  ],
+  "author": "buletu",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
